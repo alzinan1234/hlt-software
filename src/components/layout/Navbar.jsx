@@ -23,6 +23,11 @@ const Navbar = () => {
           </Link>
         </div>
         <div>
+          <Link href="/admin" className="text-xl">
+            AdminDashboard
+          </Link>
+        </div>
+        <div>
           <Link
             href="/login"
             className="text-lg bg-red-700 text-cyan-100 p-3 px-8"
